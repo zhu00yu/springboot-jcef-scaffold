@@ -1,0 +1,10 @@
+# 指定加密方式
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    password: secrect
+
+spring:
+  profiles:
+    active: dev
+
